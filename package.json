@@ -1,0 +1,30 @@
+{
+  "name": "jscodeshift-extensions",
+  "version": "0.0.1",
+  "description": "Method extensions for a nicer jscodeshift API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michsa/jscodeshift-extensions.git"
+  },
+  "keywords": [
+    "jscodeshift",
+    "codemod"
+  ],
+  "author": "Michelle Saad (michsa)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michsa/jscodeshift-extensions/issues"
+  },
+  "homepage": "https://github.com/michsa/jscodeshift-extensions#readme",
+  "dependencies": {
+    "jscodeshift": "^0.7.0",
+    "recast": "^0.18.7"
+  },
+  "devDependencies": {
+    "jest": "^25.2.1"
+  }
+}
